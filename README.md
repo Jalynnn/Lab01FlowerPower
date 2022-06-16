@@ -13,7 +13,7 @@ Answer the following questions as comments in your code:
 
 # Step Two: Coding: flowerComment()
 Find the method `flowerComment()`.
-Write the code for flowerComment() so that if the color is green or black or the size is greater than 6cm and the petal shape is "unusual", the code returns "What a weird flower!" Otherwise it should return "How pretty!"
+Write the code for flowerComment() so that if the color is green or the size is greater than 6cm, the code returns "What a weird flower!" Otherwise it should return "How pretty!"
 For example, if someone calls
 ```python
 flowerFunction() # With the flower FlowerPower("daisy", 2, "white", 2.5), it returns "How pretty!"
