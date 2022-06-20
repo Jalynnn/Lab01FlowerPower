@@ -15,20 +15,20 @@ Answer the following questions as comments in your code:
 Find the method `flowerComment()`.
 Write the code for flowerComment() so that if the color is green or the size is greater than 6cm, the code returns "What a weird flower!" Otherwise it should return "How pretty!"
 For example, if someone calls
-```python
+```java
 flowerFunction() # With the flower FlowerPower("daisy", 2, "white", 2.5), it returns "How pretty!"
 flowerFunction() # With the flower FlowerPower("wither rose", 17, "black", 6.52) it returns "What a weird flower!"
 ```
 This method does not take any input, it simply relies on the **class**'s information, so consider using the other methods like getSize().
 
 # Step Three: Test flowerComment()
-How do you test code? You simply add the lines to your python file (in the future, you will have test lines in separate files).
+How do you test code? You simply add the lines to your java file (in the future, you will have test lines in separate files).
 
 As such, we would recommend adding the following just above def main().
 
-```python
-print("TESTING", daisy.flowerComment())
-print("TESTING", witherRose.flowerComment())
+```java
+System.out.println("TESTING", daisy.flowerComment())
+System.out.println("TESTING", witherRose.flowerComment())
 ```
 Also add your own tests!
 
@@ -36,10 +36,10 @@ Also add your own tests!
 Make sure to submit the assignment for grading! If you haven't clicked through the canvas link in a while, we would suggest clicking through it again before submitting.
 
 # Reminder on Types
-We are focusing on three main types in this class: int, float, and string. Ints are integers, so numbers without decimals. If you turn a decimal number into an int, it will completely cut off the decimal part, leaving only the whole number. Floats are decimal numbers, so they do not cut off the decimal, and leave it as is. Strings are essentially like sentences, words, phrases, or other info stored in "". For example, "dog", "I am", and "3 4" are all strings. 
+We are focusing on three main types in this class: int, float, and string. Ints are integers, so numbers without decimals. If you turn a decimal number into an int, it will completely cut off the decimal part, leaving only the whole number. Floats are decimal numbers, so they do not cut off the decimal, and leave it as is. Strings are essentially like sentences, words, phrases, or other info stored in "". For example, "dog", "I am", and "3 4" are all strings.
 
 # Reminder on Variables
-Like in math, variables are named placeholders for information. Often, in functions, you will see a lot of variable manipulation like x = y + z, where y and z are placeholders for whatever values we give them somewhere else, like in main. We **assign** values with variables with the = sign, like x = 3. In the special case of function input -- these are called parameters, like dec(3), where the dec() code is written dec(num), the computer understands an **implied** num = 3.
+Like in math, variables are named placeholders for information. Often, in functions, you will see a lot of variable manipulation like x = y + z, where y and z are placeholders for whatever values we give them somewhere else, like in main. We **assign** values with variables with the = sign, like int x = 3;. As you may remember, in python, this was done with x = 3, but in java we use the format type name = value;. In the special case of function input -- these are called parameters, like dec(3), where the dec() code is written dec(int num), the computer understands an **implied** int num = 3;.
 
 # Reminder on Classes
 Java is an object-oriented language, meaning it relies a lot on Classes. In this specific example, our class is FlowerPower. This means that any "instance" of FlowerPower, or variable of type FlowerPower, will have certain information in it and certain methods that it can specially use. For example, daisy is an "instance" for FlowerPower, and because of this, it has a name, shape, size, and color. Also because daisy is a FlowerPower, it can use getName() and printInfo().
