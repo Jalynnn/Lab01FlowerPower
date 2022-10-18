@@ -24,11 +24,11 @@ This method does not take any input, it simply relies on the **class**'s informa
 # Step Three: Test flowerComment()
 How do you test code? You simply add the lines to your java file (in the future, you will have test lines in separate files).
 
-As such, we would recommend adding the following just above def main().
+As such, we would recommend adding the following within main().
 
 ```java
-System.out.println("TESTING: " + daisy.flowerComment())
-System.out.println("TESTING: " + witherRose.flowerComment())
+System.out.println("TESTING: " + daisy.flowerComment());
+System.out.println("TESTING: " + witherRose.flowerComment());
 ```
 Also add your own tests!
 
